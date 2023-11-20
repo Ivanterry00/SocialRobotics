@@ -1,0 +1,16 @@
+topic: ~Target()
+language: enu
+
+# Defining extra concepts out of words or group of words
+concept:(hello) [hello hi hey "good morning" greetings]
+
+# Catching inputs and triggering outputs
+#u:(e:onStart) $onStopped=1
+
+# Replying to speech
+u:(~hello) ~hello
+
+#u:(go to _* _*) Ok, I am going to $1 $2 $x=$1 $y=$2
+
+u:(go to _[plus minus] _* _[plus minus] _*) Ok, I am going to $1 $2 $3 $4 $signx=$1 $x=$2 $signy=$3 $y=$4
+
