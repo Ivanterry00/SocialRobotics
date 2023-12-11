@@ -1,0 +1,6 @@
+topic: ~HelloWorld()
+language: enu
+
+u: (Hello) Hello, young Padawan. $onStopped=1
+
+u: (good morning) Let's start a wonderful day. $onStopped=1
